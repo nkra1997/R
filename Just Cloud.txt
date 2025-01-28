@@ -1,0 +1,50 @@
+Here are the key features of **JustCloud**, a file storage and sharing solution:
+
+### **1. Cloud Storage and Backup**
+   - Secure storage for your files, including documents, photos, and videos.
+   - Automatic backups to prevent data loss.
+   - Access your files anytime from anywhere.
+
+### **2. File Synchronization**
+   - Sync files across multiple devices, such as desktops, laptops, tablets, and smartphones.
+   - Keeps files up-to-date in real-time across all devices.
+
+### **3. File Sharing**
+   - Easy sharing of files and folders with friends, family, or colleagues.
+   - Share via email or direct links.
+   - Control over shared files with permissions.
+
+### **4. Accessibility**
+   - Web-based platform accessible from any browser.
+   - Mobile apps for Android and iOS for on-the-go file access.
+
+### **5. Security**
+   - Encryption for files during upload and storage.
+   - Secure sharing to protect sensitive data.
+   - Options for password-protected links.
+
+### **6. Scalability**
+   - Flexible storage plans to suit individual or business needs.
+   - Option to upgrade storage as required.
+
+### **7. User-Friendly Interface**
+   - Intuitive design for easy navigation and management of files.
+   - Drag-and-drop functionality for quick file uploads.
+
+### **8. Automatic Scheduling**
+   - Schedule automatic backups at specific intervals.
+   - Customizable options for backup frequency and file selection.
+
+### **9. Version Control**
+   - Maintain multiple versions of files for recovery and tracking.
+   - Retrieve older versions if needed.
+
+### **10. Customer Support**
+   - Dedicated customer support through chat or email.
+   - Resources like FAQs and tutorials for user assistance.
+
+**Use Cases:**  
+- Personal file storage and backup.
+- Collaborative projects and team file sharing.
+- Securely storing and sharing sensitive or business-critical documents.
+

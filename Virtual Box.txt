@@ -1,0 +1,83 @@
+### **Features of Oracle VirtualBox**
+
+1. **Cross-Platform Support**  
+   - Works on various operating systems, including Windows, macOS, Linux, and Solaris.  
+   - Allows running multiple guest operating systems on a single host.
+
+2. **Support for Multiple Guest OS**  
+   - Compatible with Windows, Linux, macOS, Solaris, and other guest operating systems.
+
+3. **Snapshots**  
+   - Allows creating "snapshots" of the virtual machine state, enabling easy rollback to previous configurations.
+
+4. **Shared Folders and Clipboard**  
+   - Facilitates file sharing between host and guest systems.  
+   - Supports shared clipboard for seamless copy-paste operations.
+
+5. **USB Support**  
+   - Provides USB pass-through to connect USB devices to the virtual machine.
+
+6. **Networking Options**  
+   - Offers various networking modes: NAT, Bridged, Internal Network, and Host-Only Networking.
+
+7. **Dynamic Disk Allocation**  
+   - Dynamically allocates storage space for virtual disks, conserving physical disk space on the host system.
+
+8. **Seamless Mode**  
+   - Integrates applications from the guest OS with the host OS for seamless multitasking.
+
+9. **Hardware Virtualization**  
+   - Utilizes host CPU virtualization features like Intel VT-x or AMD-V for improved performance.
+
+10. **Portability**  
+    - Virtual machines can be exported and imported across different systems.
+
+11. **Command Line Interface (CLI)**  
+    - Provides advanced management of virtual machines through CLI commands.
+
+12. **Open Source**  
+    - Free and open-source, with regular updates and community support.
+
+---
+
+### **Steps to Create a Virtual Machine (VM) Using Oracle VirtualBox**
+
+1. **Download and Install VirtualBox**  
+   - Download Oracle VirtualBox from the official website and install it on your computer.
+
+2. **Launch VirtualBox**  
+   - Open the VirtualBox application.
+
+3. **Click on "New"**  
+   - Click the **New** button to start creating a new virtual machine.
+
+4. **Enter VM Name and OS Type**  
+   - Provide a name for the VM (e.g., "Ubuntu VM").  
+   - Select the operating system type (Windows, Linux, macOS, etc.) and version.
+
+5. **Allocate Memory (RAM)**  
+   - Choose the amount of RAM to allocate to the VM.  
+   - Ensure you leave enough RAM for the host OS.
+
+6. **Create a Virtual Hard Disk**  
+   - Select **Create a virtual hard disk now**.  
+   - Choose a hard disk file type (default is VDI - VirtualBox Disk Image).  
+   - Decide between **Dynamically Allocated** (expands as needed) or **Fixed Size** (predefined size).  
+   - Set the disk size and location, then click **Create**.
+
+7. **Configure Settings (Optional)**  
+   - After creating the VM, click on **Settings** to adjust configurations like network, USB, or shared folders.
+
+8. **Insert Installation Media**  
+   - Attach an ISO file of the desired operating system by selecting **Storage** in settings.  
+   - Click on the empty optical drive and choose the ISO file.
+
+9. **Start the Virtual Machine**  
+   - Click the **Start** button to power on the VM.  
+   - Follow the installation steps for the chosen OS inside the VM.
+
+10. **Install Guest Additions (Optional)**  
+    - After installing the OS, insert the "Guest Additions" ISO from VirtualBox's menu for better performance, shared clipboard, and enhanced display options.
+
+---
+

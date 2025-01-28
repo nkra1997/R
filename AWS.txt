@@ -1,0 +1,121 @@
+### **Cloud Services Provided by AWS**
+
+AWS (Amazon Web Services) offers a wide range of cloud services categorized into different domains:
+
+#### **1. Compute**  
+- Amazon Elastic Compute Cloud (EC2)  
+- AWS Lambda  
+- Elastic Beanstalk  
+- AWS Batch  
+- Amazon LightSail  
+
+#### **2. Storage**  
+- Amazon Simple Storage Service (S3)  
+- Amazon Elastic Block Store (EBS)  
+- Amazon Glacier  
+- AWS Storage Gateway  
+- Amazon FSx  
+
+#### **3. Databases**  
+- Amazon Relational Database Service (RDS)  
+- Amazon DynamoDB  
+- Amazon Redshift  
+- Amazon ElastiCache  
+- Amazon Aurora  
+
+#### **4. Networking and Content Delivery**  
+- Amazon Virtual Private Cloud (VPC)  
+- AWS Direct Connect  
+- Amazon Route 53  
+- AWS CloudFront  
+- AWS Elastic Load Balancer (ELB)  
+
+#### **5. Security and Identity**  
+- AWS Identity and Access Management (IAM)  
+- AWS Key Management Service (KMS)  
+- Amazon GuardDuty  
+- AWS Shield  
+- AWS WAF (Web Application Firewall)  
+
+#### **6. Machine Learning**  
+- Amazon SageMaker  
+- Amazon Rekognition  
+- Amazon Comprehend  
+- Amazon Polly  
+- Amazon Lex  
+
+#### **7. Developer Tools**  
+- AWS CodeCommit  
+- AWS CodeDeploy  
+- AWS CodePipeline  
+- AWS Cloud9  
+
+#### **8. Analytics**  
+- Amazon Kinesis  
+- Amazon EMR  
+- AWS Glue  
+- Amazon QuickSight  
+
+#### **9. IoT Services**  
+- AWS IoT Core  
+- AWS Greengrass  
+- AWS IoT Analytics  
+
+#### **10. Management and Governance**  
+- AWS CloudWatch  
+- AWS CloudTrail  
+- AWS Config  
+- AWS Systems Manager  
+
+---
+
+### **Steps to Set Up an EC2 Instance**
+
+1. **Login to AWS Management Console**  
+   - Go to [AWS Management Console](https://aws.amazon.com/) and log in using your credentials.
+
+2. **Navigate to EC2 Dashboard**  
+   - From the AWS Management Console, search for and select **EC2** under the "Services" menu.
+
+3. **Launch Instance**  
+   - Click on **Launch Instances** to start creating a new EC2 instance.
+
+4. **Choose an Amazon Machine Image (AMI)**  
+   - Select an AMI that represents the operating system and configuration you want for your instance (e.g., Amazon Linux, Ubuntu, Windows).
+
+5. **Select an Instance Type**  
+   - Choose an instance type based on the required CPU, memory, and network capacity.  
+   - For basic purposes, select **t2.micro** (free tier eligible).
+
+6. **Configure Instance Details**  
+   - Set up details like the number of instances, network (VPC), subnet, and enable auto-assignment of public IP if needed.  
+   - Leave default settings for basic setups.
+
+7. **Add Storage**  
+   - Specify the size and type of storage (EBS) to attach to your instance.  
+   - Default is usually 8GB.
+
+8. **Add Tags (Optional)**  
+   - Add tags to organize and identify your instance, e.g., **Key: Name, Value: MyEC2Instance**.
+
+9. **Configure Security Group**  
+   - Set up inbound and outbound rules for network traffic.  
+   - For basic access, allow SSH (port 22) for Linux or RDP (port 3389) for Windows.  
+   - Specify allowed IP ranges (e.g., 0.0.0.0/0 for all).
+
+10. **Review and Launch**  
+    - Review all settings, verify instance configuration, and click **Launch**.
+
+11. **Select or Create Key Pair**  
+    - Create a new key pair (if not already created) or use an existing one.  
+    - Download the private key file (*.pem) and store it securely. You will need it to access the instance.
+
+12. **Launch the Instance**  
+    - Click **Launch Instances** and wait for the instance to initialize.
+
+13. **Access the Instance**  
+    - Use an SSH client (for Linux) or Remote Desktop (for Windows) to connect to your EC2 instance using the key pair downloaded earlier.
+
+---
+
+Your EC2 instance is now up and running! You can use it for hosting applications, running services, or testing environments.
